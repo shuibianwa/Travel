@@ -1,0 +1,127 @@
+{
+  "ret": true,
+  "data": {
+    "city": "北京",
+    "swiperList":[{
+      "id": "001",
+      "imgUrl":"http://imgs.qunarzz.com/vc/6d/9f/35/b8ad5468f73fd60ec0ced086f6.jpg_92.jpg"
+    },{
+      "id": "002",
+      "imgUrl":"//imgs.qunarzz.com/vc/24/36/10/3fc94d042ae62de380581d4c98.jpg_92.jpg"
+    },{
+      "id": "003",
+      "imgUrl":"http://imgs.qunarzz.com/vc/6d/9f/35/b8ad5468f73fd60ec0ced086f6.jpg_92.jpg"
+    },{
+      "id": "004",
+      "imgUrl":"//imgs.qunarzz.com/vc/24/36/10/3fc94d042ae62de380581d4c98.jpg_92.jpg"
+    }
+  ],
+    "iconList": [
+      {
+        "id": "0001",
+        "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/package.png",
+        "desc": "景点门票"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/flight.png",
+        "desc": "飞机票"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/hotel.png",
+        "desc": "酒店"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/train.png",
+        "desc": "火车票"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/piao.png",
+        "desc": "汽车票"
+      },
+      {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+        "desc": "泡温泉"
+      },
+      {
+        "id": "0007",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+        "desc": "汕头必游"
+      },
+      {
+        "id": "0008",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+        "desc": "丹樱生态园"
+      },
+      {
+        "id": "0009",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/12/216ce2e78b5f5f02.png",
+        "desc": "万圣狂欢"
+      }
+    ],
+    "recommendList": [
+      {
+        "id": "0001",
+        "imgUrl":
+          "http://img1.qunarzz.com/sight/p0/1512/62/628c1e85c1d00e3590.water.jpg_200x200_cf118541.jpg",
+        "title": "汕头丹樱生态园",
+        "desc": "👍小伙伴们都收藏了，去看看吧~"
+      },
+      {
+        "id": "0002",
+        "imgUrl":
+          "http://img1.qunarzz.com/sight/p0/1511/be/be92297f68b40be390.water.jpg_200x200_6e04dcf5.jpg",
+        "title": "莲花山温泉度假村",
+        "desc": "这里最近很火哦，好多人都在点评它呢！"
+      },
+      {
+        "id": "0003",
+        "imgUrl":
+          "http://img1.qunarzz.com/sight/p2/201211/05/d1dfc6eca674c89c93835fbb.jpg_200x200_4d49d429.jpg",
+        "title": "南澳大桥",
+        "desc": "👍小伙伴们都收藏了，去看看吧~"
+      },
+      {
+        "id": "0004",
+        "imgUrl":
+          "http://img1.qunarzz.com/sight/p0/1809/95/9500737ce3128504a3.water.jpg_200x200_1e6ff5b2.jpg",
+        "title": "海门莲花峰",
+        "desc": "👍小伙伴们都收藏了，去看看吧~"
+      },
+      {
+        "id": "0005",
+        "imgUrl":
+          "http://img1.qunarzz.com/sight/p0/201301/17/428b10ebec97c13e93835fbb.jpg_200x200_5e369551.jpg",
+        "title": "梦之湖水都",
+        "desc": "秀丽的自然风光构成一幅立体的画卷"
+      }
+    ],
+    "weekendList": [
+      {
+        "id": "0001",
+        "imgUrl":
+          "http://img1.qunarzz.com/sight/source/1811/15/66f14e0fd6fbb.jpg_r_640x214_5d69f21d.jpg",
+        "title": "汕头丹樱生态园",
+        "desc": "👍小伙伴们都收藏了，去看看吧~"
+      },
+      {
+        "id": "0002",
+        "imgUrl":
+          "http://img1.qunarzz.com/sight/source/1811/15/66f14e0fd6fbb.jpg_r_640x214_5d69f21d.jpg",
+        "title": "莲花山温泉度假村",
+        "desc": "这里最近很火哦，好多人都在点评它呢！"
+      },
+      {
+        "id": "0003",
+        "imgUrl":
+          "http://img1.qunarzz.com/sight/source/1811/15/66f14e0fd6fbb.jpg_r_640x214_5d69f21d.jpg",
+        "title": "南澳大桥",
+        "desc": "👍小伙伴们都收藏了，去看看吧~"
+      }
+    ]
+  }
+}
