@@ -53,7 +53,16 @@ export default {
       }
     },
     mounted(){
+      this.LastCity = this.city
       this.getHomeInfo()
+    },
+    activated () {
+    // 当页面加载时，进行判断，城市发生了改变
+    if (this.lastCity !== this.city) {
+      this.getHomeInfo()
+      // 更新上一城市
+      this.lastCity = this.city
     }
+  }
 }
 </script>

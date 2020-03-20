@@ -4,10 +4,7 @@
       <swiper-slide v-for="(page,index) of pages" :key="index">
         <div class="icon" v-for="item of page" :key="item.id">
           <div class="icon-img">
-            <img
-              class="icon-img-content"
-              :src="item.imgUrl"
-            />
+            <img class="icon-img-content" :src="item.imgUrl" />
           </div>
           <p class="icon-desc">{{item.desc}}</p>
         </div>
@@ -24,16 +21,16 @@ export default {
   },
 
   computed: {
-    pages () {
-      const pages = []
-      this.list.forEach((item,index) => {
-        const page = Math.floor(index / 8)
-        if(!pages[page]){
-          pages[page] = []
+    pages() {
+      const pages = [];
+      this.list.forEach((item, index) => {
+        const page = Math.floor(index / 8);
+        if (!pages[page]) {
+          pages[page] = [];
         }
-        pages[page].push(item)
-      })
-      return pages
+        pages[page].push(item);
+      });
+      return pages;
     }
   },
   //监控data中的数据变化
@@ -81,7 +78,7 @@ export default {
   line-height: 0.44rem;
   color: #333;
   overflow: hidden;
-  white-space:nowrap;
-  text-overflow:ellipsis;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 </style>

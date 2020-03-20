@@ -1,41 +1,28 @@
 <template>
 <div class='header'>
   <div class="header-left">
-    <span class="iconfont back-icon">&#xe624;</span>
+    <span class="iconfont back-icon">&#xe621;</span>
   </div>
   <div class="header-input">
-    <span class="iconfont">&#xe632;</span>
+    <span class="iconfont">&#xe61c;</span>
     输入城市/景点/游玩主题
   </div>
+  <router-link to="/city">
   <div class="header-right">
     {{this.city}}
-    <span class="iconfont arrow-icon">&#xe64a;</span> 
+    <span class="iconfont arrow-icon">&#xe6aa;</span> 
     </div>
+  </router-link>
 </div>
 </template>
 
 <script>
-
+import { mapState } from 'vuex'
 export default {
   name:'HomeHeader',
-  props:{
-    city:String
-  },
-//import引入的组件需要注入到对象中才能使用
-data() {
-  return {
-
-  };
-},
-components: {},
-//方法集合
-methods: {
-
-},
-//监听属性 类似于data概念
-computed: {},
-//监控data中的数据变化
-watch: {},
+  computed: {
+    ...mapState(['city'])
+  }
 }
 </script>
 <style scoped>
@@ -72,5 +59,6 @@ watch: {},
   .header-right{
     width: 1.24rem;
     float: right;
+    color: rgb(255, 255, 255);
   }
 </style>
